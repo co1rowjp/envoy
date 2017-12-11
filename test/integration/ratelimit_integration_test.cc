@@ -46,7 +46,6 @@ public:
                                  ->add_rate_limits();
           rate_limit->add_actions()->mutable_destination_cluster();
         });
-    named_ports_ = {"http"};
     HttpIntegrationTest::initialize();
   }
 
